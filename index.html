@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gender Guesser</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gender Guesser</h1>
+    <p>Enter a name, and let's guess the gender!</p>
+    
+    <form id="genderForm">
+      <input type="text" id="nameInput" placeholder="Enter a name..." required>
+      <button type="submit">Guess Gender</button>
+    </form>
+    
+    <div id="result">
+      <p id="guessText"></p>
+      <img id="maleSymbol" src="male.jpeg" alt="Male Symbol" class="gender-image" style="display:none;">
+      <img id="femaleSymbol" src="rain.png" alt="Female Symbol" class="gender-image" style="display:none;">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
